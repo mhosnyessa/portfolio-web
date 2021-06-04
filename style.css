@@ -1,0 +1,95 @@
+* {
+    background-color: #fff4e3;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 ,h2 ,h3, p {
+    background-color: var(--white);
+    font-family: sans-serif;
+    display: inline-block;
+}
+:root {
+  --black: #40514e;
+  --blue: #2f89fc;
+  --cyan: #30e3ca;
+  --white: #f5f5f5; 
+}
+body {
+    height: 100%;
+}
+#nav-bar{
+    background-color: #5d5d5a;
+    overflow: hidden;
+    height: 7vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+#nav-bar a{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    color: #fff;
+    background-color:  #5d5d5a;
+    padding: 14px 37px;
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+}
+#nav-bar a:hover{
+    color: #fff;
+    background-color: #1b1b1b;
+}
+#nav-bar .active:hover{
+    background-color: #ffa45c;
+    color: #1b1b1b;
+
+}
+#nav-bar .active{
+    background-color: #ffa45c;
+    color: #1b1b1b;
+}
+/* now this is the first page "about"*/
+.center{
+    background-color: rgba(1,1,1,0);
+    display: flex;
+    justify-content:space-evenly; 
+    padding-top: 50%;
+    transform: translateY(-50%);
+    align-items: center;
+    
+}
+
+#about {
+    height: 100vh;
+    width: 100%;
+    background-color: burlywood;
+}
+#about #about-pic{
+    background-image: url("me.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: crimson;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    box-shadow: 1px 1px 100px #5d5d5a;
+    
+}
+#about #about-text{
+    border: black 1px solid;
+    background-color: rgba(182, 118, 0, 0);
+    transform: translateY(-25%);
+    width: 30vw;
+    height: 200px;
+
+}
+/*below is the skills part styling*/
+#skills{
+    background-color: cornflowerblue;
+    height: 200vh;
+}
