@@ -194,3 +194,105 @@ body {
 #skills .card .skills-text .bar .inner-bar.deutsch {
     width: 3.4%
 }
+
+
+/* now with each of the skills' section*/
+
+
+/*fist off we have the programming languages section*/
+
+#skills .card.b .skills-pic {
+    left: 0;
+}
+
+#skills .card.b .skills-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-16%);
+}
+
+#skills .card.b .skills-pic {
+    background-image: url("https://images.unsplash.com/photo-1493119508027-2b584f234d6c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80");
+}
+
+#skills .card.b .skills-text .bar .inner-bar.C {
+    width: 80%;
+}
+
+#skills .card.b .skills-text .bar .inner-bar.JavaScript {
+    width: 40%;
+}
+
+#skills .card.b .skills-text .bar .inner-bar.dart {
+    width: 60%;
+}
+
+
+/*now this part is for the pig five*/
+
+#skills .card.c .skills-pic {
+    /* left: 0; */
+}
+
+#skills .card.c .skills-text {
+    position: absolute;
+    /* left: 50%;
+    transform: translateX(-16%); */
+}
+
+#skills .card.c .skills-pic {
+    background-image: url("https://measuringsel.casel.org/wp-content/uploads/2018/08/big5.png");
+}
+
+#skills .card.c .skills-text .bar .inner-bar.openness {
+    width: 73%;
+}
+
+#skills .card.c .skills-text .bar .inner-bar {
+    height: 18px;
+}
+
+#skills .card.c .skills-text .bar .inner-bar.Conscientiousness {
+    width: 37.5%;
+}
+
+#skills .card.c .skills-text .bar .inner-bar.Extroversion {
+    width: 35%;
+}
+
+#skills .card.c .skills-text .bar .inner-bar.Agreableness {
+    width: 50%;
+}
+
+#skills .card.c .skills-text .bar .inner-bar.Neuroticism {
+    width: 77%;
+}
+
+
+/*now this part is for the general skills*/
+
+#skills .card.d .skills-pic {
+    left: 0;
+}
+
+#skills .card.d .skills-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-16%);
+}
+
+#skills .card.d .skills-pic {
+    background-image: url("https://media.istockphoto.com/vectors/soft-skills-word-concepts-banner-vector-id1195800337?k=6&m=1195800337&s=612x612&w=0&h=LQEtfwg0MYgM-qQakL4gr8vXRzb4WylLz8sywmNXWnQ=");
+}
+
+#skills .card.d .skills-text .bar .inner-bar.Time {
+    width: 90%;
+}
+
+#skills .card.d .skills-text .bar .inner-bar.Networking {
+    width: 80%;
+}
+
+#skills .card.d .skills-text .bar .inner-bar.Creativity {
+    width: 90%;
+}
